@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><Workflow version="v.1.13">
+  <Filtration versionrequired="True" status="DONE" StartTime="25-07-2014 13:27:04" EndTime="25-07-2014 13:28:29">
+    <Mandatory>
+      <P status="DONE" StartTime="25-07-2014 13:27:42" EndTime="25-07-2014 13:27:43">(1) * Replace leftmost and rightmost char -(hyphen) of superscript matter, into minus</P>
+      <P status="DONE" StartTime="25-07-2014 13:27:43" EndTime="25-07-2014 13:27:44">(2) * Replace all variations of degree into 'degree' symbol</P>
+      <P status="DONE" StartTime="25-07-2014 13:27:44" EndTime="25-07-2014 13:27:44">(3) * Remove unwanted blank lines</P>
+      <P status="DONE" StartTime="25-07-2014 13:27:44" EndTime="25-07-2014 13:27:44">(4) * Replace underlined 'plus' sign(s) with plus/minus symbol(s)</P>
+      <P status="DONE" StartTime="25-07-2014 13:27:44" EndTime="25-07-2014 13:27:44">(5) * Replace underlined 'Greater Than' symbol(s) with 'Greater Than or Equal To' symbol(s)</P>
+      <P status="DONE" StartTime="25-07-2014 13:27:44" EndTime="25-07-2014 13:27:45">(6) * Replace underlined 'Less Than' symbol(s) with 'Less Than or Equal To' symbol(s)</P>
+      <P status="DONE" StartTime="25-07-2014 13:27:45" EndTime="25-07-2014 13:27:46">(7) * Replace 'x' with 'multiplication' symbol</P>
+      <P status="DONE" StartTime="25-07-2014 13:27:46" EndTime="25-07-2014 13:27:46">(8) * Remove space(s) before tab</P>
+      <P status="DONE" StartTime="25-07-2014 13:27:46" EndTime="25-07-2014 13:27:46">(9) * Remove space(s) after tab</P>
+      <P status="DONE" StartTime="25-07-2014 13:27:46" EndTime="25-07-2014 13:27:47">(10) * Remove tab(s) before paragraph mark</P>
+      <P status="DONE" StartTime="25-07-2014 13:27:47" EndTime="25-07-2014 13:27:47">(11) * Remove tab(s) after paragraph mark</P>
+      <P status="DONE" StartTime="25-07-2014 13:27:47" EndTime="25-07-2014 13:27:50">(12) * Remove space(s) before paragraph mark</P>
+      <P status="DONE" StartTime="25-07-2014 13:27:50" EndTime="25-07-2014 13:27:51">(13) * Remove space(s) after paragraph mark</P>
+      <P status="DONE" StartTime="25-07-2014 13:27:51" EndTime="25-07-2014 13:27:51">(14) * Replace multiple space(s) with single space</P>
+      <P status="DONE" StartTime="25-07-2014 13:27:51" EndTime="25-07-2014 13:28:14">(16) * Replace 'single hyphen' inside page range/number range with 'double hyphen'</P>
+      <P status="DONE" StartTime="25-07-2014 13:28:14" EndTime="25-07-2014 13:28:14">(18) * Change smart quote(s) to straight quote(s)</P>
+      <P status="DONE" StartTime="25-07-2014 13:28:14" EndTime="25-07-2014 13:28:15">(19) * Change straight quote(s) to smart quote(s)</P>
+      <P status="DONE" StartTime="25-07-2014 13:28:15" EndTime="25-07-2014 13:28:15">(20) * Change three consecutive dots to Ellipsis(...)</P>
+      <P status="DONE" StartTime="25-07-2014 13:28:15" EndTime="25-07-2014 13:28:16">(22) * Remove space(s) before comma</P>
+      <P status="DONE" StartTime="25-07-2014 13:28:16" EndTime="25-07-2014 13:28:16">(23) * Remove space(s) before semicolon</P>
+      <P status="DONE" StartTime="25-07-2014 13:28:16" EndTime="25-07-2014 13:28:17">(24) * Remove space(s) before period</P>
+      <P status="DONE" StartTime="25-07-2014 13:28:17" EndTime="25-07-2014 13:28:17">(25) * Remove space(s) before closing parenthesis</P>
+      <P status="DONE" StartTime="25-07-2014 13:28:17" EndTime="25-07-2014 13:28:17">(26) * Remove space(s) after opening parenthesis</P>
+      <P status="DONE" StartTime="25-07-2014 13:28:17" EndTime="25-07-2014 13:28:18">(28) * Remove space(s) before % sign</P>
+      <P status="DONE" StartTime="25-07-2014 13:28:18" EndTime="25-07-2014 13:28:18">(29) * Remove space before Celsius or Fahrenheit sign</P>
+      <P status="DONE" StartTime="25-07-2014 13:28:18" EndTime="25-07-2014 13:28:19">(34) * Convert 'direction' sign(s) to symbol(s)</P>
+      <P status="DONE" StartTime="25-07-2014 13:28:19" EndTime="25-07-2014 13:28:20">(38) * Remove unwanted section/page/column Breaks</P>
+      <P status="DONE" StartTime="25-07-2014 13:28:20" EndTime="25-07-2014 13:28:22">(47) * Convert 'direction' arrow(s) to symbol(s)</P>
+    </Mandatory>
+    <Optional>
+      <P status="YTS">(15) * Change 'Em Dash' with --- (triple hyphen) and 'En Dash' with -- (double hyphen)</P>
+      <P status="YTS">(17) * Change 'double hyphen' inside page range/number range into 'single hyphen'</P>
+      <P status="YTS">(21) * Change hyphen (with space both side) into En Dash (with space both side)</P>
+      <P status="YTS">(27) * Remove comma from digits</P>
+      <P status="YTS">(30) * Convert tab mark(s) to standard form</P>
+      <P status="YTS">(31) * Add 'space' before and after 'equal sign'</P>
+      <P status="YTS">(32) * Move 'period' from outside closing double quote(s) to inside</P>
+      <P status="YTS">(33) * Move 'comma' from outside closing double quote(s) to inside</P>
+      <P status="YTS">(35) * Convert 'hard return' mark(s) to standard form</P>
+      <P status="YTS">(36) * Insert 'En Space' in COMMON SI and Metric units</P>
+      <P status="YTS">(37) * Insert 'En Space' for COMPLEX (&gt;550 units) SI and Metric units</P>
+      <P status="YTS">(39) * Replace Em dash with spaces on both sides to En dash with spaces on both sides</P>
+      <P status="YTS">(40) * Replace --- (Triple hyphens) with spaces on both sides to En dash with spaces on both sides</P>
+      <P status="YTS">(41) * Replace --- (Triple hyphens) without spaces on both sides to En dash with spaces on both sides</P>
+      <P status="YTS">(42) * Replace -- (Double hyphens) with spaces on both sides to En dash with spaces on both sides</P>
+      <P status="YTS">(43) * Insert 'Non-breaking Space' for COMPLEX (&gt;550 units) SI and Metric units</P>
+      <P status="YTS">(44) * Remove header and footer information</P>
+      <P status="YTS">(45) * Remove space before superscript footnote/endnote citations</P>
+      <P status="YTS">(46) * Remove Optional Hyphen Between Word</P>
+    </Optional>
+  </Filtration>
+  <BodyStyling versionrequired="True" status="DONE" StartTime="25-07-2014 13:29:21" EndTime="25-07-2014 13:33:39">
+    <TagMapping status="DONE">
+    </TagMapping>
+    <StyleMapping status="DONE">
+    </StyleMapping>
+  </BodyStyling>
+  <Reference versionrequired="True" status="DONE" StartTime="25-07-2014 13:34:10" EndTime="25-07-2014 13:37:04">
+  </Reference>
+  <CrossLinking versionrequired="True" status="YTS">
+  </CrossLinking>
+  <DOI versionrequired="True" status="YTS">
+  </DOI>
+  <Metadata versionrequired="True" status="YTS">
+    <Global>
+      <JournalID type="publisher">PRB</JournalID>
+      <JournalID type="coden">PRBMDO</JournalID>
+      <JournalID type="hwp">
+      </JournalID>
+      <JournalID type="pmc">
+      </JournalID>
+      <JournalID type="nlmta">
+      </JournalID>
+      <JournalID type="pmid">
+      </JournalID>
+      <JournalID type="pumbed">
+      </JournalID>
+      <JournalID type="doi">
+      </JournalID>
+      <JournalID type="other">
+      </JournalID>
+      <JOURNALTITLE>Physical Review B</JOURNALTITLE>
+      <JOURNALSUBTITLE>
+      </JOURNALSUBTITLE>
+      <TRANSJOURNALTITLE>
+      </TRANSJOURNALTITLE>
+      <ABBREVJOURNALTITLE>Phys. Rev. B</ABBREVJOURNALTITLE>
+      <ISSNPRINT>1098-0121</ISSNPRINT>
+      <ISSNONLINE>1550-235X</ISSNONLINE>
+      <PUBLISHERNAME>American Physical Society</PUBLISHERNAME>
+      <PUBLISHERLOCATION>
+      </PUBLISHERLOCATION>
+      <SELFURI>
+      </SELFURI>
+      <COPYRIGHTS>
+      </COPYRIGHTS>
+    </Global>
+    <OPENACCESS>
+      <OPEN_ACCESS_NO>
+      </OPEN_ACCESS_NO>
+      <OPEN_ACCESS_YES>
+      </OPEN_ACCESS_YES>
+      <OPEN_ACCESS_CC_BY>
+      </OPEN_ACCESS_CC_BY>
+      <OPEN_ACCESS_CC_BY_SA>
+      </OPEN_ACCESS_CC_BY_SA>
+      <OPEN_ACCESS_CC_BY_ND>
+      </OPEN_ACCESS_CC_BY_ND>
+      <OPEN_ACCESS_CC_BY_NC>
+      </OPEN_ACCESS_CC_BY_NC>
+      <OPEN_ACCESS_CC_BY_NC_SA>
+      </OPEN_ACCESS_CC_BY_NC_SA>
+      <OPEN_ACCESS_CC_BY_NC_ND>
+      </OPEN_ACCESS_CC_BY_NC_ND>
+    </OPENACCESS>
+    <ArticleSpecific metafile="starter.txt">
+      <ARTICLEID mandatory="False" active="True" metadata="%ACC" tagname=""/>
+      <DOI mandatory="False" active="True" metadata="%SC" tagname=""/>
+      <PMID mandatory="False" active="False" metadata="" tagname=""/>
+      <CODEN mandatory="False" active="False" metadata="" tagname=""/>
+      <MANUSCRIPT mandatory="False" active="True" metadata="%ACC" tagname=""/>
+      <PII mandatory="False" active="False" metadata="" tagname=""/>
+      <OTHER mandatory="False" active="False" metadata="" tagname=""/>
+      <SUBJECT_LEVEL1 mandatory="False" active="True" metadata="%SC" tagname=""/>
+      <SUBJECT_LEVEL2 mandatory="False" active="True" metadata="%SC" tagname=""/>
+      <PUBDATE_PRINT mandatory="False" active="True" metadata="" tagname=""/>
+      <PUBDATE_ONLINE mandatory="False" active="True" metadata="" tagname=""/>
+      <HISTORYDATE_RECEIVED mandatory="False" active="True" metadata="%RD" tagname=""/>
+      <HISTORYDATE_REV-REQUEST mandatory="False" active="False" metadata="" tagname=""/>
+      <HISTORYDATE_REV-RECEIVED mandatory="False" active="True" metadata="%RDREV" tagname=""/>
+      <HISTORYDATE_ACCEPTED mandatory="False" active="False" metadata="" tagname=""/>
+      <VOLUME mandatory="False" active="True" metadata="" tagname="00"/>
+      <ISSUE mandatory="False" active="True" metadata="" tagname="0"/>
+      <SUPPLEMENTARY_MATERIAL mandatory="False" active="False" metadata="" tagname=""/>
+      <COPYRIGHT_STATEMENT mandatory="False" active="True" metadata="%CP+%CPTXT+%CPHOLDER+%CPURL" tagname=""/>
+      <OPEN_ACCESS mandatory="False" active="False" metadata="" tagname=""/>
+      <ARTICLE_TYPE mandatory="False" active="True" metadata="%SC" tagname=""/>
+    </ArticleSpecific>
+  </Metadata>
+  <XmlConversion versionrequired="True" status="YTS">
+    <XMLValidation>
+      <DTDNAME>JATS-JOURNALPUBLISHING-OASIS-ARTICLE1-MATHML3</DTDNAME>
+      <MATHSTYLENAME>LaTeX</MATHSTYLENAME>
+      <FLOATPLACEMENT>End of Para</FLOATPLACEMENT>
+      <FLOATPOSITION>First callout </FLOATPOSITION>
+      <ENTITYSTYLE>ISO</ENTITYSTYLE>
+    </XMLValidation>
+    <DocValidation status="YTS">
+    </DocValidation>
+  </XmlConversion>
+  <CopyEditing versionrequired="True" status="YTS">
+  </CopyEditing>
+  <XmlConversion versionrequired="True" status="YTS">
+    <XMLValidation>
+      <DTDNAME>JATS-JOURNALPUBLISHING-OASIS-ARTICLE1-MATHML3</DTDNAME>
+      <MATHSTYLENAME>LaTeX</MATHSTYLENAME>
+      <FLOATPLACEMENT>End of Para</FLOATPLACEMENT>
+      <FLOATPOSITION>First callout </FLOATPOSITION>
+      <ENTITYSTYLE>ISO</ENTITYSTYLE>
+    </XMLValidation>
+    <DocValidation status="YTS">
+    </DocValidation>
+  </XmlConversion>
+  <Utility>
+    <Manual>
+      <Category name="General">
+        <Query>Please Check 3</Query>
+      </Category>
+    </Manual>
+  </Utility>
+  <Client id="5" name="APS" journalname="PRB"/>
+</Workflow>
